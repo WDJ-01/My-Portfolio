@@ -1,7 +1,7 @@
 import React from 'react';
 import NavLink from './NavLink';
 import { navLinks } from './navLinks';
-// import './Nav.css';
+ import './nav.css';
 
 const Nav = () => {
 	return (

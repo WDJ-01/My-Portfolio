@@ -1,0 +1,190 @@
+#homeContainer {
+
+    background-image: radial-gradient(
+        circle at 46% 76%,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(255, 255, 255, 0.03) 3%,
+        transparent 3%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 36% 87%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 3%,
+        transparent 3%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 50% 78%,
+        rgba(255, 255, 255, 0.01) 0%,
+        rgba(255, 255, 255, 0.01) 3%,
+        transparent 3%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 22% 99%,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(255, 255, 255, 0.03) 7%,
+        transparent 7%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 38% 63%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 7%,
+        transparent 7%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 55% 50%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 7%,
+        transparent 7%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 93% 55%,
+        rgba(255, 255, 255, 0.01) 0%,
+        rgba(255, 255, 255, 0.01) 7%,
+        transparent 7%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 24% 100%,
+        rgba(255, 255, 255, 0.01) 0%,
+        rgba(255, 255, 255, 0.01) 7%,
+        transparent 7%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 26% 53%,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(255, 255, 255, 0.03) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 17% 5%,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(255, 255, 255, 0.03) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 53% 51%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 10% 25%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 31% 56%,
+        rgba(255, 255, 255, 0.01) 0%,
+        rgba(255, 255, 255, 0.01) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 40% 69%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 33% 89%,
+        rgba(255, 255, 255, 0.02) 0%,
+        rgba(255, 255, 255, 0.02) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      radial-gradient(
+        circle at 96% 22%,
+        rgba(255, 255, 255, 0.03) 0%,
+        rgba(255, 255, 255, 0.03) 5%,
+        transparent 5%,
+        transparent 100%
+      ),
+      linear-gradient(182deg, rgb(0, 87, 147), rgb(61, 188, 235));
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+  
+  .home_div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 15%;
+  }
+  
+  .home_btn {
+    padding: 0.5rem 3rem;
+    background-color: #fffefa;
+    color: #172b4d;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    border: 0.2rem ;
+    border-radius: 3%;
+    position: relative;
+    z-index: 1;
+    transition: ease-out 0.3s;
+  }
+  
+  .home_btn:hover a {
+    color: #fffefa;
+  }
+  
+  .home_btn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    right: 50%;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: #172b4d;
+  }
+  
+  .home_btn:hover:before{
+    transform: 0.5s all ease;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+  }
+  
+  .home_div h1 {
+    font-size: 4rem;
+    color: #fffefa;
+    margin: 0.5rem 0;
+  }
+  
+  .home_div p {
+    font-size: 2rem;
+    color: #fffefa;
+  }
+  
+  #accent_color {
+    color: #172b4d;
+  }
+
+  .btn_social:hover{
+    transform: scale(1.1)
+  }
+  .resume_link{
+    text-decoration: none;
+    color: #172b4d;
+  }
+  

@@ -1,0 +1,31 @@
+nav {
+    width: 100vw;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fffefa;
+    top: 0;
+    position: fixed;
+    z-index: 99;
+    background-color: #172b4d;
+  }
+  
+  span {
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    /* margin-left: 15% ; */
+  }
+  
+  
+  span:hover {
+    text-decoration-color: #fffefa;
+  }
+
+  @media screen and (max-width: 400px){
+    span{
+      font-size: 1rem;
+    }
+    
+  }

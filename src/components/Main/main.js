@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Home, About, Contact } from './';
 import {Home} from  "../Home/home"
 import {About} from  "../About/about"
 import {Contact} from  "../Contacts/contacts"
@@ -10,8 +9,8 @@ export const Main = () => (
 	<main>
 		<Home />
 		<About />
-		<Projects />
-		<Contact />
+	    <Projects />
+		<Contact /> 
 	</main>
 );
 
