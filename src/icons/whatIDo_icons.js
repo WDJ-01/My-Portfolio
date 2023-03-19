@@ -7,7 +7,7 @@ import {
   FaGit,
   FaNodeJs,
 } from "react-icons/fa";
-import { SiJavascript, SiRedux , SiWebpack} from "react-icons/si";
+import { SiJavascript, SiRedux , SiWebpack, SiTypescript} from "react-icons/si";
 
 
 export class Icons extends Component {
@@ -35,6 +35,13 @@ export class Icons extends Component {
           />
            <span className="tooltiptext">JavaScript</span>
         </div>{" "}
+        <div className="tooltip">
+          {" "}
+          <SiTypescript
+            style={{ color: "darkblue", fontSize: "2rem", marginRight: "1rem" }}
+          />
+           <span className="tooltiptext">TypeScript</span>
+        </div>
         <div className="tooltip">
           {" "}
           <FaReact

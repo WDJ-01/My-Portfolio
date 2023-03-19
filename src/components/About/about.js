@@ -30,15 +30,15 @@ export const About = () => {
         </ul>
 
         <p>
-          Hello, my name is Wian. I'm a Frontend Developer based in
+          Hello, my name is Wian. I'm a Front end Developer based in
           Johannesburg. I enjoy a challenge and working on projects that allow
           me to learn different techniques and softwares. The ability to create
           something from scratch is my createst pleasure as a Front end
-          developer
+          developer.
         </p>
         <p>
           Outside of work I enjoy fitness which includes crossfit and gyming. I am also a avid reader, reading anything from classics such
-          as Goerge Orwell to more business and self development orientated
+          as George Orwell to more business and self development orientated
           books. In my free time I enjoy exploring the outdoors with friends
           which includes fishing, camping and hiking.
         </p>
@@ -52,10 +52,10 @@ export const About = () => {
         <ul className="about_ul">
           <li>
             I specialize in creating responsive, dynamic, and visually appealing
-            Frontend applications.
+            Front end applications.
           </li>
           <li>Providing a smooth user experiences.</li>
-          <li>Maintain best practices while buidling user interfaces.</li>
+          <li>Maintain best practices while building user interfaces.</li>
         </ul>
 
         <p>

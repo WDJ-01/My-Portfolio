@@ -1,6 +1,7 @@
 #homeContainer {
 
-    background-image: radial-gradient(
+  background-color: #fffefa;
+    /* background-image: radial-gradient(
         circle at 46% 76%,
         rgba(255, 255, 255, 0.03) 0%,
         rgba(255, 255, 255, 0.03) 3%,
@@ -112,10 +113,11 @@
         transparent 5%,
         transparent 100%
       ),
-      linear-gradient(182deg, rgb(0, 87, 147), rgb(61, 188, 235));
+      linear-gradient(182deg, rgb(0, 87, 147), rgb(61, 188, 235)); */
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: flex-start;
+    margin-top: 2%;
 
   }
   
@@ -128,8 +130,8 @@
   
   .home_btn {
     padding: 0.5rem 3rem;
-    background-color: #fffefa;
-    color: #172b4d;
+    background-color: #172b4d;
+    color: #fffefa;
     letter-spacing: 0.1rem;
     font-weight: bold;
     font-size: 1.2rem;
@@ -142,7 +144,7 @@
   }
   
   .home_btn:hover a {
-    color: #fffefa;
+    color: #172b4d;
   }
   
   .home_btn:before{
@@ -154,7 +156,7 @@
     bottom: 0;
     opacity: 0;
     content: "";
-    background-color: #172b4d;
+    background-color: #fffefa;
   }
   
   .home_btn:hover:before{
@@ -167,13 +169,13 @@
   
   .home_div h1 {
     font-size: 4rem;
-    color: #fffefa;
+    color: black;
     margin: 0.5rem 0;
   }
   
   .home_div p {
     font-size: 2rem;
-    color: #fffefa;
+    color: black;
   }
   
   #accent_color {
@@ -185,6 +187,8 @@
   }
   .resume_link{
     text-decoration: none;
-    color: #172b4d;
+    color: #fffefa;
   }
+
+  
   

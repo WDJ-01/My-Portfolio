@@ -11,7 +11,7 @@ export const Projects = () => {
   return (
     <section ref={projectsRef} id="projectsContainer">
       <div className="projects_heading">
-        <h2>Projects</h2>
+        <h2>Portfolio</h2>
         <p>
           Here you can find some of my work. Click{" "}
           <strong style={{ color: "#172b4b" }}>Demo</strong> for a live version
@@ -23,6 +23,9 @@ export const Projects = () => {
       <div className="projects_gallery">
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
+            <div className="project_png">
+              <img src={require('../../resources/images/project1.png').default}/>
+            </div>
             <h3>Outdoor Gear Store</h3>
             <p>
               Ecommerce store design template for outdoor apparel store. Limited
@@ -54,6 +57,9 @@ export const Projects = () => {
 
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
+          <div className="project_png">
+              <img src={require('../../resources/images/project2.png').default}/>
+            </div>
             <h3>Reddit Lite</h3>
             <p>
               A primitive version of Reddit called Reddit Lite. Built using the
@@ -84,6 +90,9 @@ export const Projects = () => {
 
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
+          <div className="project_png">
+              <img src={require('../../resources/images/project3.png').default}/>
+            </div>
             <h3>Developer Portfolio</h3>
             <p>
               Front-end Developer Portfolio containing all necessary info for
@@ -101,6 +110,9 @@ export const Projects = () => {
 
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
+          <div className="project_png">
+              <img src={require('../../resources/images/project4.png').default}/>
+            </div>
             <h3>ToDo App</h3>
             <p>
               Become focused,organised and ready to meet the demands of our day

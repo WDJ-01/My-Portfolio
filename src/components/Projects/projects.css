@@ -1,122 +1,9 @@
 /*PROJECTS SECTION*/
 #projectsContainer {
-  /* top: 200vh;
-    left: 0;
-    right: 0;
-    position: absolute; */
-  background-image: radial-gradient(
-      circle at 46% 76%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 3%,
-      transparent 3%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 36% 87%,
-      rgba(255, 255, 255, 0.02) 0%,
-      rgba(255, 255, 255, 0.02) 3%,
-      transparent 3%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 50% 78%,
-      rgba(255, 255, 255, 0.01) 0%,
-      rgba(255, 255, 255, 0.01) 3%,
-      transparent 3%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 22% 99%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 7%,
-      transparent 7%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 38% 63%,
-      rgba(255, 255, 255, 0.02) 0%,
-      rgba(255, 255, 255, 0.02) 7%,
-      transparent 7%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 55% 50%,
-      rgba(255, 255, 255, 0.02) 0%,
-      rgba(255, 255, 255, 0.02) 7%,
-      transparent 7%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 93% 55%,
-      rgba(255, 255, 255, 0.01) 0%,
-      rgba(255, 255, 255, 0.01) 7%,
-      transparent 7%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 24% 100%,
-      rgba(255, 255, 255, 0.01) 0%,
-      rgba(255, 255, 255, 0.01) 7%,
-      transparent 7%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 26% 53%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 17% 5%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 53% 51%,
-      rgba(255, 255, 255, 0.02) 0%,
-      rgba(255, 255, 255, 0.02) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 10% 25%,
-      rgba(255, 255, 255, 0.02) 0%,
-      rgba(255, 255, 255, 0.02) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 31% 56%,
-      rgba(255, 255, 255, 0.01) 0%,
-      rgba(255, 255, 255, 0.01) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 40% 69%,
-      rgba(255, 255, 255, 0.02) 0%,
-      rgba(255, 255, 255, 0.02) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 33% 89%,
-      rgba(255, 255, 255, 0.02) 0%,
-      rgba(255, 255, 255, 0.02) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    radial-gradient(
-      circle at 96% 22%,
-      rgba(255, 255, 255, 0.03) 0%,
-      rgba(255, 255, 255, 0.03) 5%,
-      transparent 5%,
-      transparent 100%
-    ),
-    linear-gradient(182deg, rgb(0, 87, 147), rgb(61, 188, 235));
+  display: flex;
+  flex-direction: column;
+  background-color: #fffefa;
+  height: auto;
 }
 .projects_heading {
   text-align: center;
@@ -125,12 +12,12 @@
 
 .projects_heading h2 {
   font-size: 3rem;
-  color: #fffefa;
+  color: #172b4d;
   margin-bottom: 0.5rem;
 }
 
 .projects_heading p {
-  color: #fffefa;
+  color: black;
   font-size: 1.25rem;
   margin-top: 0;
   letter-spacing: 0.08rem;
@@ -138,6 +25,7 @@
 
 .projects_gallery {
   display: flex;
+  /* flex-direction: column; */
   align-items: center;
   flex-wrap: wrap;
   justify-content: center;
@@ -148,9 +36,9 @@
   width: 40%;
   height: 10%;
   background-color: #fffefa;
-  margin: 0.5rem 2rem;
-  box-shadow: 0 4px 8px 0 rgba(180, 199, 253, 0),
-    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 1rem 2rem;
+  box-shadow: 0 4px 15px 0 rgba(52, 74, 134, 0),
+    0 10px 20px 0 rgba(0, 0, 0, 0.19);
   display: flex;
   flex-direction: column;
 }
@@ -170,6 +58,18 @@
 
 .projects_gallery_child_content h3 {
   font-size: 1.5rem;
+}
+
+.project_png{
+  width: 90%;
+  height: auto;
+  object-fit: cover;
+}
+.project_png img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+
 }
 
 .projects_gallery_child_btn {
