@@ -13,8 +13,8 @@ const Nav = () => {
 
     console.log(menu);
   };
-  const style1 = {display: 'none'}
-  const style2 = {display: 'flex'}
+  const style1 = {visibility: 'hidden'}
+  const style2 = {visibility: 'visible'}
   return (
     <nav>
       <div className="header_name">

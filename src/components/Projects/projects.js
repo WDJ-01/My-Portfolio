@@ -24,7 +24,9 @@ export const Projects = () => {
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
             <div className="project_png">
-              <img src={require('../../resources/images/project1.png').default}/>
+              <img
+                src={require("../../resources/images/project1.png").default}
+              />
             </div>
             <h3>Outdoor Gear Store</h3>
             <p>
@@ -57,8 +59,10 @@ export const Projects = () => {
 
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
-          <div className="project_png">
-              <img src={require('../../resources/images/project2.png').default}/>
+            <div className="project_png">
+              <img
+                src={require("../../resources/images/project2.png").default}
+              />
             </div>
             <h3>Reddit Lite</h3>
             <p>
@@ -90,8 +94,10 @@ export const Projects = () => {
 
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
-          <div className="project_png">
-              <img src={require('../../resources/images/project3.png').default}/>
+            <div className="project_png">
+              <img
+                src={require("../../resources/images/project3.png").default}
+              />
             </div>
             <h3>Developer Portfolio</h3>
             <p>
@@ -110,8 +116,10 @@ export const Projects = () => {
 
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
-          <div className="project_png">
-              <img src={require('../../resources/images/project4.png').default}/>
+            <div className="project_png">
+              <img
+                src={require("../../resources/images/project4.png").default}
+              />
             </div>
             <h3>ToDo App</h3>
             <p>
@@ -132,6 +140,41 @@ export const Projects = () => {
             <button id="see_code">
               <a
                 href="https://github.com/WDJ-01/ToDo-App.git"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <FaGithub style={style} />
+              </a>
+            </button>
+          </div>
+        </div>
+
+        <div className="projects_gallery_child">
+          <div className="projects_gallery_child_content">
+            <div className="project_png">
+              <img
+                src={require("../../resources/images/project5.png").default}
+              />
+            </div>
+            <h3>Company Website</h3>
+            <p>
+              Stylish, gallery style website inspired by SpaceX's website.
+              Appealing, modern design for company.{" "}
+            </p>
+          </div>
+          <div className="projects_gallery_child_btn">
+            <button id="see_demo">
+              <a
+                href="https://gallerystylewebsite.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Demo
+              </a>
+            </button>
+            <button id="see_code">
+              <a
+                href="https://github.com/WDJ-01/Website-Design-gallery-type-"
                 target="_blank"
                 rel="noreferrer noopener"
               >
