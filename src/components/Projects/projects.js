@@ -153,7 +153,7 @@ export const Projects = () => {
           <div className="projects_gallery_child_content">
             <div className="project_png">
               <img
-                src={require("../../resources/images/project5.png").default}
+                src={require("../../resources/images/project6.png").default}
               />
             </div>
             <h3>Company Website</h3>
