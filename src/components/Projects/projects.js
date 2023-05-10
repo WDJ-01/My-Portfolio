@@ -21,6 +21,43 @@ export const Projects = () => {
       </div>
 
       <div className="projects_gallery">
+
+
+      <div className="projects_gallery_child">
+          <div className="projects_gallery_child_content">
+            <div className="project_png">
+              <img
+                src={require("../../resources/images/project7.png").default}
+              />
+            </div>
+            <h3>FitX Ecom</h3>
+            <p>
+              Fully functional ecommerse store linked to database and connected with asp.net api to angular.
+            </p>
+          </div>
+          <div className="projects_gallery_child_btn">
+            <button id="see_demo">
+              <a
+                href="https://angular-ecom.netlify.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Demo
+              </a>
+            </button>
+            <button id="see_code">
+              <a
+                href="https://github.com/WDJ-01/FitX-Ecom"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                {" "}
+                <FaGithub style={style} />
+              </a>
+            </button>
+          </div>
+        </div>
+
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
             <div className="project_png">
