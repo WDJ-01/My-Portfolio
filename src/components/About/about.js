@@ -1,10 +1,9 @@
 import React from "react";
 import { useNav } from "../../customHooks/useNav";
 import { Icons } from "../../icons/whatIDo_icons";
-import './about.css'
+import "./about.css";
 
 export const About = () => {
-
   const aboutRef = useNav("About");
 
   return (
@@ -37,10 +36,11 @@ export const About = () => {
           developer.
         </p>
         <p>
-          Outside of work I enjoy fitness which includes crossfit and gyming. I am also a avid reader, reading anything from classics such
-          as George Orwell to more business and self development orientated
-          books. In my free time I enjoy exploring the outdoors with friends
-          which includes fishing, camping and hiking.
+          Outside of work I enjoy fitness which includes crossfit and gyming. I
+          am also a avid reader, reading anything from classics such as George
+          Orwell to more business and self development orientated books. In my
+          free time I enjoy exploring the outdoors with friends which includes
+          fishing, camping and hiking.
         </p>
       </div>
       <div className="about_me_2">
@@ -50,23 +50,28 @@ export const About = () => {
         <Icons />
 
         <ul className="about_ul">
+          <li>Knowledge of HTML, CSS, JavaScript, TypeScript, C#.</li>
+          <li>React, Angular, .NET Core experience.</li>
           <li>
             I specialize in creating responsive, dynamic, and visually appealing
             Front end applications.
           </li>
+          <li>Experience using Git CLI and Github.</li>
           <li>Providing a smooth user experiences.</li>
           <li>Maintain best practices while building user interfaces.</li>
+          <li>Build and integrate REST Api's.</li>
+          <li>Integrate and maintain databases such as Microsoft SQL server.</li>
         </ul>
-
-        <p>
+        {/* <p>
           As a Frontend Developer I have extensive knowledge on{" "}
           <strong>JavaScript</strong>, <strong>CSS</strong> and{" "}
           <strong>HTML</strong>. I mostly use <strong>React.js</strong> for
           applications that render quickly and effiently and{" "}
-          <strong>Redux</strong> as a state management library. <strong>Webpack</strong> is my preferred module-bundler.  When it comes to
-          hosting my code I use <strong>Github</strong> and <strong>Git</strong>{" "}
-          as a version control system.
-        </p>
+          <strong>Redux</strong> as a state management library.{" "}
+          <strong>Webpack</strong> is my preferred module-bundler. When it comes
+          to hosting my code I use <strong>Github</strong> and{" "}
+          <strong>Git</strong> as a version control system.
+        </p> */}
       </div>
     </section>
   );

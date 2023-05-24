@@ -71,7 +71,54 @@
   object-fit: cover;
 
 }
+.project_skills_used{
+  display: flex;
+}
+.project_skills_used h3{
+display: inline-block;
+}
 
+.skills_list{
+  list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+.skills_list li{
+  display: inline-block;
+  margin: .5rem;
+  font-weight: bold;
+}
+
+/*ABOUT ICONS */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 100px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  font-size: 1rem;
+
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/**/
 .projects_gallery_child_btn {
   display: flex;
   align-items: center;

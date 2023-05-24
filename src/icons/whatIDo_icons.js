@@ -6,41 +6,75 @@ import {
   FaGithub,
   FaGit,
   FaNodeJs,
+  FaAngular,
+  FaMicrosoft
 } from "react-icons/fa";
-import { SiJavascript, SiRedux , SiWebpack, SiTypescript} from "react-icons/si";
-
+import {AiOutlineConsoleSql} from "react-icons/ai"
+import { SiJavascript, SiRedux, SiWebpack, SiTypescript,  } from "react-icons/si";
 
 export class Icons extends Component {
   render() {
     return (
-      <div style={{display: "flex", flexWrap: 'wrap'}}>
+      <div style={{ display: "flex", flexWrap: "wrap" }}>
         <div className="tooltip">
           {" "}
           <FaHtml5
             style={{ color: "green", fontSize: "2rem", marginRight: "1rem" }}
           />
-           <span className="tooltiptext">HTML5</span>
+          <span className="tooltiptext">HTML5</span>
         </div>
         <div className="tooltip">
           {" "}
           <FaCss3Alt
             style={{ color: "blue", fontSize: "2rem", marginRight: "1rem" }}
           />
-           <span className="tooltiptext"> CSS3</span>
+          <span className="tooltiptext"> CSS3</span>
         </div>
         <div className="tooltip">
           {" "}
           <SiJavascript
             style={{ color: "yellow", fontSize: "2rem", marginRight: "1rem" }}
           />
-           <span className="tooltiptext">JavaScript</span>
+          <span className="tooltiptext">JavaScript</span>
         </div>{" "}
         <div className="tooltip">
           {" "}
           <SiTypescript
             style={{ color: "darkblue", fontSize: "2rem", marginRight: "1rem" }}
           />
-           <span className="tooltiptext">TypeScript</span>
+          <span className="tooltiptext">TypeScript</span>
+        </div>
+        <div className="tooltip">
+          {" "}
+          <p   style={{
+              color: "black",
+              fontSize: "1.5rem",
+              fontWeight: "bold",
+              margin: "0 1rem 0 0",
+            }}>C#</p>
+          <span className="tooltiptext">C-Sharp</span>
+        </div>
+        <div className="tooltip">
+          {" "}
+          <FaMicrosoft
+            style={{
+              color: "black",
+              fontSize: "2rem",
+              marginRight: "1rem",
+            }}
+          />
+          <span className="tooltiptext">.NET</span>
+        </div>
+        <div className="tooltip">
+          {" "}
+          <FaAngular
+            style={{
+              color: "#dd1b16",
+              fontSize: "2rem",
+              marginRight: "1rem",
+            }}
+          />
+          <span className="tooltiptext">Angular</span>
         </div>
         <div className="tooltip">
           {" "}
@@ -51,28 +85,35 @@ export class Icons extends Component {
               marginRight: "1rem",
             }}
           />
-           <span className="tooltiptext">React</span>
+          <span className="tooltiptext">React</span>
         </div>{" "}
         <div className="tooltip">
           {" "}
           <SiRedux
             style={{ color: "purple", fontSize: "2rem", marginRight: "1rem" }}
           />
-           <span className="tooltiptext">Redux</span>
+          <span className="tooltiptext">Redux</span>
         </div>{" "}
+        <div className="tooltip">
+          {" "}
+          <AiOutlineConsoleSql
+            style={{ color: "black", fontSize: "2rem", marginRight: "1rem" }}
+          />
+          <span className="tooltiptext">SQl</span>
+        </div>
         <div className="tooltip">
           {" "}
           <FaGithub
             style={{ color: "black", fontSize: "2rem", marginRight: "1rem" }}
           />
-           <span className="tooltiptext">Github</span>
+          <span className="tooltiptext">Github</span>
         </div>{" "}
         <div className="tooltip">
           {" "}
           <FaGit
             style={{ color: "black", fontSize: "2rem", marginRight: "1rem" }}
           />
-           <span className="tooltiptext">Git</span>
+          <span className="tooltiptext">Git</span>
         </div>
         <div className="tooltip">
           <FaNodeJs
@@ -82,7 +123,7 @@ export class Icons extends Component {
               marginRight: "1rem",
             }}
           />
-           <span className="tooltiptext">Node.js</span>
+          <span className="tooltiptext">Node.js</span>
         </div>
         <div className="tooltip">
           <SiWebpack
@@ -92,7 +133,7 @@ export class Icons extends Component {
               marginRight: "1rem",
             }}
           />
-           <span className="tooltiptext">Webpack</span>
+          <span className="tooltiptext">Webpack</span>
         </div>
       </div>
     );
