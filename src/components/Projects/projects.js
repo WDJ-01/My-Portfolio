@@ -169,7 +169,7 @@ export const Projects = () => {
             </button>
             <button id="see_code">
               <a
-                href="https://github.com/WDJ-01/FitX-Ecom"
+                href="https://github.com/WDJ-01/Fitx"
                 target="_blank"
                 rel="noreferrer noopener"
               >
