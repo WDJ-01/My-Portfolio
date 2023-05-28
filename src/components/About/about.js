@@ -61,6 +61,7 @@ export const About = () => {
           <li>Maintain best practices while building user interfaces.</li>
           <li>Build and integrate REST Api's.</li>
           <li>Integrate and maintain databases such as Microsoft SQL server.</li>
+          <li>Basic understanding of Windows IIS and AWS implementation</li>
         </ul>
         {/* <p>
           As a Frontend Developer I have extensive knowledge on{" "}
