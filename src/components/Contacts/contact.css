@@ -126,4 +126,16 @@
     }
 }
 
+@media (orientation: landscape) {
+  #contactContainer{
+    height: auto
+  }
+  .contact_content{
+    padding: 1rem 5rem 5rem 5rem
+  }
+.contact_form{
+  margin-top: 4rem;
+}
+}
+
 
