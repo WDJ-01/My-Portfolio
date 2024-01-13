@@ -29,10 +29,11 @@ export const About = () => {
         </ul>
 
         <p>
-          Hello, my name is Wian. I'm a Front end Developer based in
-          Johannesburg. I enjoy a challenge and working on projects that allow
-          me to learn different techniques and softwares. The ability to create
-          something from scratch is my createst pleasure as a Front end
+          Hello, my name is Wian. I'm a FullStack Developer based in
+          Johannesburg. I have experience creating web applications as well as
+          mobile apps using xamarin. I enjoy a challenge and working on projects
+          that allow me to learn different techniques and softwares. The ability
+          to create something from scratch is my createst pleasure as a
           developer.
         </p>
         <p>
@@ -46,22 +47,29 @@ export const About = () => {
       <div className="about_me_2">
         <h2>What I Do</h2>
 
-        <h3>Front End Developer</h3>
+        <h3>FullStake Developer</h3>
         <Icons />
 
         <ul className="about_ul">
-          <li>Knowledge of HTML, CSS, JavaScript, TypeScript, C#.</li>
-          <li>React, Angular, .NET Core experience.</li>
           <li>
-            I specialize in creating responsive, dynamic, and visually appealing
-            Front end applications.
+            Knowledge of HTML, CSS, JavaScript, XAML, JSON, TypeScript and C#.
           </li>
-          <li>Experience using Git CLI and Github.</li>
-          <li>Providing a smooth user experiences.</li>
-          <li>Maintain best practices while building user interfaces.</li>
-          <li>Build and integrate REST Api's.</li>
-          <li>Integrate and maintain databases such as Microsoft SQL server.</li>
-          <li>Basic understanding of Windows IIS, AWS and Azure implementation</li>
+          <li>React, Angular, .NET Core, Xamarin experience.</li>
+          <li>
+            I specialize in FullStack development with experience in building
+            and maintaining applications from frontend visual to backend logic
+            and connecting this with Api's and Microservices.
+          </li>
+          <li>Experience using Git CLI and Github as well as Fork.</li>
+          <li>Build and integrate REST Api's using Node.js and C#.</li>
+          <li>
+            Integrate and maintain databases such as Microsoft SQL server and
+            MySql.
+          </li>
+          <li>
+            Basic understanding of Windows IIS, AWS and Azure implementation
+          </li>
+          <li>Experience using Docker to deploy API's</li>
         </ul>
         {/* <p>
           As a Frontend Developer I have extensive knowledge on{" "}

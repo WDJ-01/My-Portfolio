@@ -7,10 +7,11 @@ import {
   FaGit,
   FaNodeJs,
   FaAngular,
-  FaMicrosoft
+  FaMicrosoft,
+  FaDocker
 } from "react-icons/fa";
 import {AiOutlineConsoleSql} from "react-icons/ai"
-import { SiJavascript, SiRedux, SiWebpack, SiTypescript,  } from "react-icons/si";
+import { SiXaml,SiXamarin,SiJavascript, SiRedux, SiWebpack, SiTypescript,  } from "react-icons/si";
 
 export class Icons extends Component {
   render() {
@@ -54,6 +55,34 @@ export class Icons extends Component {
             }}>C#</p>
           <span className="tooltiptext">C-Sharp</span>
         </div>
+        <div className="tooltip">
+          {" "}
+          <p   style={{
+              color: "black",
+              fontSize: "1.5rem",
+              fontWeight: "bold",
+              margin: "0 1rem 0 0",
+            }}>.NET</p>
+          <span className="tooltiptext">.NET Core</span>
+        </div>
+        <div className="tooltip">
+                    <SiXamarin 
+                      style={{
+                        color: "blue",
+                        fontSize: "2rem", marginRight: "1rem"
+                      }}
+                    />
+                    <span className="tooltiptext">Xamarin</span>
+                  </div>
+                  <div className="tooltip">
+                    <SiXaml 
+                      style={{
+                        color: "black",
+                        fontSize: "2rem",marginRight: "1rem"
+                      }}
+                    />
+                    <span className="tooltiptext">XAML</span>
+                  </div>
         <div className="tooltip">
           {" "}
           <FaMicrosoft
@@ -135,6 +164,15 @@ export class Icons extends Component {
           />
           <span className="tooltiptext">Webpack</span>
         </div>
+        <div className="tooltip">
+                    <FaDocker 
+                      style={{
+                        color: "lightblue",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">Docker</span>
+                  </div>
       </div>
     );
   }

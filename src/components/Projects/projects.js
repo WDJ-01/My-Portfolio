@@ -6,11 +6,15 @@ import {
   FaCss3Alt,
   FaAngular,
   FaBootstrap,
-  FaMicrosoft,
-  FaReact
+  FaReact,
+  FaDocker ,
+  FaAppStoreIos ,
+  FaAndroid ,
+  FaMicrosoft 
 } from "react-icons/fa";
+import { TbBrandCSharp } from "react-icons/tb";
 import { DiJavascript1 } from "react-icons/di";
-import { SiTypescript, SiRedux, SiWebpack } from "react-icons/si";
+import {SiMysql , SiXaml ,SiXamarin ,SiTypescript, SiRedux, SiWebpack } from "react-icons/si";
 import { AiOutlineConsoleSql } from "react-icons/ai";
 import "./projects.css";
 
@@ -32,6 +36,7 @@ export const Projects = () => {
       </div>
 
       <div className="projects_gallery">
+
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
             <div className="project_png">
@@ -507,7 +512,7 @@ export const Projects = () => {
           </div>
         </div>
 
-        <div className="projects_gallery_child">
+        {/*<div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
             <div className="project_png">
               <img
@@ -518,15 +523,6 @@ export const Projects = () => {
             <div className="project_skills_used">
               <h4>Skills Used</h4>
               <ul className="skills_list">
-                {/* <li>HTML&nbsp;</li>
-                <li>| CSS&nbsp;</li>
-                <li>| JavaScript&nbsp;</li>
-                <li>| TypeScript&nbsp;</li>
-                <li>| Sql Server&nbsp;</li>
-                <li>| C#&nbsp;</li>
-                <li>| Angular&nbsp;</li>
-                <li>| .Net Framework&nbsp;</li>
-                <li>| Bootstrap&nbsp;</li> */}
                 <li>
                   <div className="tooltip">
                     <FaHtml5
@@ -621,7 +617,7 @@ export const Projects = () => {
               </a>
             </button>
           </div>
-        </div>
+        </div>*/}
 
         <div className="projects_gallery_child">
           <div className="projects_gallery_child_content">
@@ -727,6 +723,146 @@ export const Projects = () => {
             </button>
           </div>
         </div>
+
+        <div className="projects_gallery_child">
+          <div className="projects_gallery_child_content">
+            <div className="project_png">
+              <img
+                src={require("../../resources/images/crm.png").default}
+              />
+            </div>
+            <h3>CRM Apps</h3>
+            <div className="project_skills_used">
+              <h4>Skills Used</h4>
+              <ul className="skills_list">
+                {/* <li>HTML&nbsp;</li>
+                <li>| CSS&nbsp;</li>
+                <li>| JavaScript&nbsp;</li>
+                <li>| TypeScript&nbsp;</li>
+                <li>| Sql Server&nbsp;</li>
+                <li>| C#&nbsp;</li>
+                <li>| Angular&nbsp;</li>
+                <li>| .Net Framework&nbsp;</li>
+                <li>| Bootstrap&nbsp;</li> */}
+                <li>
+                  <div className="tooltip">
+                    <SiXamarin 
+                      style={{
+                        color: "blue",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">Xamarin</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                    <p>.NET</p>
+                    <span className="tooltiptext">.NET</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                    <span>C#</span>
+                    <span className="tooltiptext">C#</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                    <SiXaml 
+                      style={{
+                        color: "black",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">XAML</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                    <FaDocker 
+                      style={{
+                        color: "lightblue",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">Docker</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                    <p>Rest Api</p>
+                    <span className="tooltiptext">Webpack</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                    <FaAppStoreIos  
+                      style={{
+                        color: "blue",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">IOS/App Store</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                    <FaAndroid  
+                      style={{
+                        color: "green",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">Android/Play Store</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                   
+                  <FaMicrosoft   
+                      style={{
+                        color: "lightblue",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">UWP</span>
+                  </div>
+                </li>
+                <li>
+                  <div className="tooltip">
+                   
+                  <SiMysql   
+                      style={{
+                        color: "lightblue",
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <span className="tooltiptext">MySql</span>
+                  </div>
+                </li>
+
+
+              </ul>
+            </div>
+            <p>
+              Customer Relationship Manager App used by teams for keeping track of deals, leads, account and contacts..{" "}
+            </p>
+          </div>
+          <div className="projects_gallery_child_btn">
+            <button id="see_demo" style={{width: "6rem"}}>
+              <a
+                href="https://apps.microsoft.com/detail/9P9MPD2TWZ5J?hl=en-za&gl=ZA"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Get In App Store
+              </a>
+            </button>
+    
+          </div>
+        </div>
+
       </div>
     </section>
   );
