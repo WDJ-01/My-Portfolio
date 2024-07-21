@@ -7,6 +7,9 @@ nav {
   top: 0;
   z-index: 99;
   background-color: #fffefa;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: gray;
+
 }
 .header_name {
   width: 50%;

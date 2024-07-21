@@ -11,7 +11,7 @@ export const Home = () => {
       <div className="home_div">
         <h1>Hello,</h1>
         <h1 id="accent_color">I'm Wian,</h1>
-        <h1>FullStake Developer</h1>
+        <h1>FullStack Developer</h1>
         <p>Web/Xamarin/API's</p>
         <button className="home_btn">
           <a

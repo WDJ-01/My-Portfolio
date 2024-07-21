@@ -1,10 +1,10 @@
 #homeContainer {
 
+    height: 100vh;
     background-color: #fffefa;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: flex-start;
-    margin-top: 2%;
 
   }
   
@@ -77,12 +77,9 @@
     color: #fffefa;
   }
 
-  @media (orientation: landscape) {
-    #homeContainer{
-      height: auto
+  @media (min-width: 1400px) {
+    .home_div h1 {
+        font-size: 6rem; /* Increase the font size */
     }
-    .home_div{
-      margin-bottom: 1rem;
-    }
-  }
+}
   

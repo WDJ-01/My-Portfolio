@@ -47,7 +47,7 @@ export const About = () => {
       <div className="about_me_2">
         <h2>What I Do</h2>
 
-        <h3>FullStake Developer</h3>
+        <h3>FullStack Developer</h3>
         <Icons />
 
         <ul className="about_ul">
